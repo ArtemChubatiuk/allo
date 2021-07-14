@@ -1,0 +1,12 @@
+.app-wrapper {
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+    "c1 c1"
+    "c2 c2"
+    "c3 c3";
+    grid-template-rows: 30px 1fr;
+    grid-auto-columns: 2fr 10fr;
+    /* grid-gap: 10px;
+     */
+}
